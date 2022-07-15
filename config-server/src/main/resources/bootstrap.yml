@@ -1,0 +1,18 @@
+server:
+  port: 8086
+spring:
+  security:
+    user:
+      name: nttdata
+      password: nttdata
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/adamsam12/BootcampBC24.git
+          username: nttdata
+          password: nttdata
+          search-paths: /
+          default-label: "master"
+
+

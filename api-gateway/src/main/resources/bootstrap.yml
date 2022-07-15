@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    config:
+      uri: http://config-service:8086
+      username: nttdata
+      password: nttdata
+
